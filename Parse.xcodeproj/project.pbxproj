@@ -8552,6 +8552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F55ABB671B4F39DA00A0ECD5 /* Debug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}/Carthage/Build/**";
 			};
 			name = Debug;
 		};
@@ -8559,6 +8560,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F55ABB681B4F39DA00A0ECD5 /* Release.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}/Carthage/Build/**";
 			};
 			name = Release;
 		};
